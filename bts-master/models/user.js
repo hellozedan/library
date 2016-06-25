@@ -15,7 +15,7 @@ var userModel = new Schema({
     "lastLocationCoords": {
         type: [Number],
         index: "2d"
-    },
+    } ,
     "type":{
         type:String,
         description: "type of user",

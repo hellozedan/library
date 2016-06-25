@@ -13,7 +13,7 @@ var messageModel = new Schema({
     "receiverUser":{
 	   	 type: Schema.Types.ObjectId, 
 	   	 ref: 'User' 
-    },
+    } ,
 //    
 //    "previousMessage":{
 //	   	 type: Schema.Types.ObjectId, 
